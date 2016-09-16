@@ -22,7 +22,9 @@ public class KdkProjekt1_koty {
         kot2.setImieOpiekuna (getUserInput());
         System.out.print("Podaj wage: ");
         kot2.setWaga (Double.valueOf(getUserInput()));
+        System.out.print("Data urodzenia kota: ");
         kot2.setData(getUserInput());
+        kot2.przedstawSie();
         
       
         
