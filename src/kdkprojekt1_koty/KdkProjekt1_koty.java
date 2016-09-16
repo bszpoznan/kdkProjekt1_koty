@@ -1,22 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package kdkprojekt1_koty;
 
 import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author dom
- */
 public class KdkProjekt1_koty {
 
-    /**
-     * @param args the command line arguments
-     */
     
     static  Scanner sc = new Scanner(System.in);
      
