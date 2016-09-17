@@ -22,7 +22,7 @@ public class Kot {
     private String imieOpiekuna;
     public String przedstawSie(){
         return "Kot "+imie+", właściciel "+imieOpiekuna+", waga "+waga+
-                ", urodzony "+data.toString();
+                ", urodzony "+sdf.format(data);
     }    
     public void setData(String data) {
         try{
@@ -33,7 +33,7 @@ public class Kot {
     }
 
     public String getData() {
-        return data.toString();
+        return sdf.format(data);
     }
 
     public void setImie(String imie) {
